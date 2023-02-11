@@ -1,0 +1,55 @@
+.cloud9exp__landing{
+    background-color: var(--color-bg);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+@media screen and (min-width:785px){
+    .cloud9exp__landing{
+        justify-content: center;
+    }
+    
+}
+
+.cloud9exp__landing_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-text);
+}
+
+.cloud9exp__landing_content img{
+    width:500px;
+}
+
+.cloud9exp__landing_content h1{
+    font-family: var(--font-family);
+    font-size: 100px;
+    text-align: center;
+}
+
+.cloud9exp__landing_content p{
+    font-family: var(--font-family-2);
+    font-size: 16px;
+    padding: 2rem;
+    text-align: center;
+
+}
+
+.cloud9exp__landing_socials{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cloud9exp__landing_socials a{
+    padding: 1rem;
+}
+
+.cloud9exp__landing_socials a:hover{
+    color: var(--color-bg-2);
+    transition: 0.4s;
+}
+
+

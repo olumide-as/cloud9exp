@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+
+:root {
+  --color-bg: #222222;
+  --color-bg-2: #005691;
+  --color-text: #ffffff;
+  --font-family: 'Dancing Script';
+  --font-family-2: 'MuseoModerno';
+}
